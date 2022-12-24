@@ -1,0 +1,6 @@
+<div class="container" *ngIf="characters$ | async as characters">
+  <app-characters-card
+    class="cards"
+    [characters]="characters"
+  ></app-characters-card>
+</div>

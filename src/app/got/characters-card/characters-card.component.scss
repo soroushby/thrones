@@ -1,0 +1,23 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.cards {
+  height: 40rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem;
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+}
+
+.image {
+  width: 25rem;
+  height: 20rem;
+}
